@@ -1,0 +1,8 @@
+from traceback import print_tb
+
+
+x = 1
+
+while(x<=100):
+    print(x)
+    x = x+1

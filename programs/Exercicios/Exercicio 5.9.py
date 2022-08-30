@@ -1,0 +1,9 @@
+num1 = int(input("Digite o primeiro numero: "))
+num2 = int(input("Digite o segundo numero: "))
+y = 0
+x = num1
+while x >= num2:
+    x = x - num2
+    y += 1
+resto = x
+print(f"{num1} / {num2} = {y} (quociente) {resto} (resto)")

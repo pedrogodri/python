@@ -1,0 +1,9 @@
+divisor = int(input("Digite o divisor: "))
+dividendo = int (input("Digite o dividendo: "))
+q = 0
+x = dividendo
+while x >= divisor:
+    x =- divisor
+    q =+ 1
+r = x
+print(f"O resto de {dividendo} / {divisor} = {r}")
